@@ -57,6 +57,7 @@ then
 fi
 
 apt-get update
+apt install iptables
 
 apt-get -y install pptpd || {
   echo "Could not install pptpd" 
